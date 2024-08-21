@@ -4,38 +4,42 @@
 }
 
 html {
-    background: rgb(245 245 245);
+    background: #262626;
+    text-align: center;
 }
 
 h1 {
-    font-size: 24px;
-    color: #242424;
+    font-size: 30px;
+    color: #D81E5B;
     font-weight: 900;
 }
 
 h2 {
-    font-size: 20px;
-    color: #606060;
+    font-size: 26px;
+    color: #F5D7E3;
     font-weight: 800;
 }
 
 p {
-    font-size: 14px;
+    font-size: 20px;
     margin: 30px auto;
+    color: #F5D7E3;
 }
 
 ul {
     margin-left: 100px;
     padding: 20px;
-    border: solid 2px blue;
+    border: solid 5px #D81E5B;
     max-width: 40%;
     list-style: none;
+    margin: auto;
 }
 
 li {
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
     padding: 10px;
+    color: #F5D7E3;
 }
 
 li:hover {
@@ -44,15 +48,21 @@ li:hover {
 
 a {
     font-weight: bold;
+    color: #D81E5B;
 }
 
 li a {
-    color: orange;
+    color: #F1C40F;
     text-decoration: underline;
 }
 
 .lista, .lista a {
-    color: green;
+    color: #2274A5;
 }
 
-
+.banderita {
+    width: 30%;
+    position: fixed;
+    bottom: -10px;
+    left: 20px;
+}
